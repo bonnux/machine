@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/test/ClientMainThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/SessionConnection.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/SessionManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/StaticValue.java" charset="GBK" />
+  </component>
+</project>

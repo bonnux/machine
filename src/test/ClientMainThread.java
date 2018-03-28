@@ -13,7 +13,7 @@ public class ClientMainThread extends Thread {
 			mSessionManager = new SessionManager();
 			Socket socket = new Socket(StaticValue.SERVER_HOST,
 					StaticValue.SERVER_PORT);
-			System.out.println("---Á¬½Óµ½·şÎñÆ÷¶Ë---" + socket);
+			System.out.println("---è¿æ¥åˆ°æœåŠ¡å™¨ç«¯---" + socket);
 			SessionConnection mSessionConnection = new SessionConnection(
 					socket, mSessionManager);
 			mSessionConnection.registerSession();

@@ -28,8 +28,6 @@ public class SessionManager extends Thread implements SessionListener {
 		mClientList.add(mSessionConnection);
 		for (SessionConnection c : mClientList) {
 			System.out.println("已经接入的socket：" + c.getmClient());
-			//c.sendDate("大家好我是：" + mSessionConnection.getmClient());
-			// c.sendDate("socket：" + c.getmClient() + "连接到了服务器");
 		}
 	}
 

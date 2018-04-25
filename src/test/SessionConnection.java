@@ -161,7 +161,7 @@ public class SessionConnection {
 					break;
 				}
 				try {
-					Thread.sleep(3000);
+					Thread.sleep(5000L);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					break;
